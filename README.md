@@ -34,4 +34,4 @@ In future projects, I want to improve my:
 
 ## Output
 
-![Output Screenshot](screenshot.png)
+![Output Screenshot](https://github.com/abinisha04/qr-code-component/blob/main/qr-code-component-main/screenshot.png)
