@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+<style>
+    * {
+        padding:0;
+        margin:0px;
+    }
+    body {
+        height:100vh;
+        background-color: hsl(0, 2%, 12%);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header {
+        background-color: hsl(212, 45%, 89%);
+        height:100vh;
+        width:71vw;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .qr {
+        background-color: white;
+        height:380px;
+        width:240px;
+        border-radius: 15px;
+    }
+    img {
+        margin-top:12px;
+        margin-left:12px;
+        border-radius: 15px;
+    }
+    .content {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        
+    }
+    .content>h4 {
+        font-size: 16px;
+        font-family: Outfit;
+        color: hsl(180, 2%, 24%);
+        text-shadow: 1px 1px 1px hsl(199, 100%, 81%);
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .content>p {
+        font-size: 12px;
+        font-family: Outfit;
+        color:hsl(214, 3%, 53%);
+        margin-top: 13px;
+        margin-left: 21px;
+        margin-right: 17px;
+    }
+</style>
+<body>
+    <header>
+        <section class = "qr">
+            <img src = "images/image-qr-code.png" height="220px" width="215">
+            <div class = "content">
+                <h4>Improve your front-end skills by building projects</h4>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
+        </section>
+    </header>
+</body>
+</html>
